@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Sora:wght@100..800&display=swap');
+
+:root{
+	/*web colros*/
+	--primary: oklch(62.7% 0.265 303.9); /*500*/
+	--secondary: oklch(81.1% 0.111 293.571); /*300*/
+	--tertiary: oklch(43.2% 0.232 292.759); /*800*/
+}
+
+*{
+	font-family: "Outfit", "Sora", "Calibri";	
+}
+
+
+
+#email{
+}
+
+#profile{
+	height: 250px;
+	width: 250px;
+	border-radius: 100%;
+	object-fit: cover;
+	box-shadow: 1px 16px 21px -6px rgba(112,112,112,0.5);
+	-webkit-box-shadow: 1px 16px 21px -6px rgba(112,112,112,0.5);
+	-moz-box-shadow: 1px 16px 21px -6px rgba(112,112,112,0.5);
+}
+
+
+body{
+	background: linear-gradient(75deg, oklch(96.9% 0.016 293.756), oklch(90.2% 0.063 306.703));
+}
+
+
+
+footer{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: var(--secondary);
+}
+
+i{
+	color: var(--tertiary) !important;
+	font-size: 24px;
+}
+
+#landing{
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: start;
+	gap: 10px;
+}
+
+.fa-solid:hover, .fa-brands:hover{
+	color: var(--primary) !important;
+	transition: all 0.4s ease-in-out;
+}
